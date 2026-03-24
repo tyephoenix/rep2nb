@@ -31,8 +31,8 @@ dev = ["pytest>=7.0", "build", "twine"]
 rep2nb = "rep2nb.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/tye/rep2nb"
-Issues = "https://github.com/tye/rep2nb/issues"
+Homepage = "https://github.com/tyephoenix/rep2nb"
+Issues = "https://github.com/tyephoenix/rep2nb/issues"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

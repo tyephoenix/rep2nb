@@ -1,5 +1,10 @@
 # rep2nb
 
+[![CI](https://github.com/tyephoenix/rep2nb/actions/workflows/ci.yml/badge.svg)](https://github.com/tyephoenix/rep2nb/actions/workflows/ci.yml)
+[![PyPI version](https://img.shields.io/pypi/v/rep2nb)](https://pypi.org/project/rep2nb/)
+[![Python](https://img.shields.io/pypi/pyversions/rep2nb)](https://pypi.org/project/rep2nb/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Convert a Python repository into a single executable Jupyter notebook.
 
 **The problem:** You built a well-structured repo with multiple files, proper separation of concerns, clean imports — then someone says "we need a `.ipynb`." You now have to manually copy-paste everything into cells, figure out the right order, inline your imports, and pray it runs.
@@ -21,7 +26,7 @@ pip install rep2nb
 ### From source
 
 ```bash
-git clone https://github.com/tye/rep2nb.git
+git clone https://github.com/tyephoenix/rep2nb.git
 cd rep2nb
 pip install .
 ```
@@ -126,7 +131,7 @@ convert(
 ## Development
 
 ```bash
-git clone https://github.com/tye/rep2nb.git
+git clone https://github.com/tyephoenix/rep2nb.git
 cd rep2nb
 pip install -e ".[dev]"
 pytest
